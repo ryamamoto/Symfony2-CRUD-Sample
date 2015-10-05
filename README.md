@@ -1,7 +1,5 @@
-blog
+# Symfony2-CRUD-Sample
 ====
-
-A Symfony project created on September 30, 2015, 9:25 pm.
 
 Symfony2インストーラをインストール
 curl -LsS http://symfony.com/installer -o /usr/local/bin/symfony
