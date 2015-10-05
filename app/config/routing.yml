@@ -1,0 +1,7 @@
+aisha_blog:
+    resource: "@AishaBlogBundle/Resources/config/routing.yml"
+    prefix:   /blog
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

@@ -1,0 +1,38 @@
+post:
+    path:     /
+    defaults: { _controller: AishaBlogBundle:Post:index }
+    methods:  [GET]
+
+post_create:
+    path:     /
+    defaults: { _controller: AishaBlogBundle:Post:create}
+    methods:  [POST]
+
+post_new:
+    path:     /new
+    defaults: { _controller: AishaBlogBundle:Post:new }
+    methods:  [GET]
+
+post_show:
+    path:     /{id}
+    defaults: { _controller: AishaBlogBundle:Post:show}
+    methods:  [GET]
+
+post_edit:
+    path:     /{id}/edit
+    defaults: { _controller: AishaBlogBundle:Post:edit}
+    methods:  [GET]
+
+post_update:
+    path:     /{id}
+    defaults: { _controller: AishaBlogBundle:Post:update}
+    methods:  [PUT]
+
+post_delete:
+    path:     /{id}
+    defaults: { _controller: AishaBlogBundle:Post:delete}
+    methods:  [DELETE]
+
+hello:
+    path:     /hello/{name}
+    defaults: { _controller: AishaBlogBundle:Default:index}
